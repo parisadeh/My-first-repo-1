@@ -1,0 +1,107 @@
+body{
+  margin:0;
+  padding:0;
+}
+nav {
+  height: 50px;
+  background-color: lightgrey;
+}
+.inline-block {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  display: inline-block;
+  background-color: darkgray;
+  color: black;
+  width: 150px;
+  text-align: center;
+}
+
+/*left column*/
+
+.left {
+  float: left;
+  height: 700px;
+  background-color: lightgrey;
+  width: 30%;
+  text-align: center;
+}
+.left img{
+  width:200px;
+  position:relative;
+  padding:10px;
+  margin-top: 20px;
+}
+.left p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+hr{
+  height:2px;
+}
+
+.lists{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin: 30px 0px 10px 70px;
+}
+.list{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  margin:10px 10px 10px 70px;
+}
+
+
+/*right column*/
+
+.right {
+  float: left;
+  background-color: rgb(179, 159, 124);
+  height: 700px;
+  width: 70%;
+  text-align: center;
+}
+.floating h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 90px;
+
+
+}
+.floating p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  margin:20px;
+  text-align: left;
+ 
+}
+.floating img{
+  width:350px;
+  float: left;
+  margin:10px;
+  border-radius: 5px;
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+}
+.image{
+  float:left;
+  padding:5px;
+  width:30%;
+
+}
+.image img{
+  display: inline-block;
+  background-color: #C6C6C6;
+  border-radius: 5px;
+  width: 200px;
+  margin: 10px;
+  border-style: solid;
+  border-color: white;
+  border-width: 4px;
+
+}
